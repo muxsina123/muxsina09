@@ -1,20 +1,15 @@
 <?php
-if(!empty($_POST["burger"])){
-    $burger=37000;
-}
-else{
-    $burger=0;
-}
-if(!empty($_POST["pepsi"])){
-    $pepsi=12000;
-}
-else{
-    $pepsi=0;
-}
-if($burger>0 && $pepsi>0){
-    echo ($burger+$pepsi)*0.9. "som";
-}
-else{
-    echo ($burger+$pepsi)."som";
+
+$talabalar = [
+    ["muxsina", 16,"yosh", "xorazm"],
+    ["rayhona", 16, "yosh", "xorazm"],
+    ["rano", 16,"yosh", "xorazm"],
+    ["zuxra", 16, "yosh","xorazm"]
+];
+for ($i = 0; $i < count($talabalar); $i++) {
+    for ($j = 0; $j < count($talabalar[$i]); $j++) {
+        echo $talabalar[$i][$j] . "<br> ";
+    }
+    
 }
 ?>
