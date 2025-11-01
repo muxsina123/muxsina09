@@ -16,7 +16,7 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="index1.php" method="POST">
+    <form action="index2.php" method="POST">
         <input type="number" name="a">
         <button  type="submit">yuborish</button>
     </form>
