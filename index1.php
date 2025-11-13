@@ -12,7 +12,7 @@ $s=0;
 for($i=0; $i<count($massiv); $i++) {
   
     for ($j = 0; $j < count($massiv[$i]); $j++) {
-        if ($massiv[$i][$j] % 2 == 0) { 
+                                                                             
             $s=$massiv[$i][$j];
        
     }
