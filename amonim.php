@@ -18,5 +18,6 @@ function tubson($n){
     }
     return $a;
 }
-$n = 34;
-echo tubson($n);
+$n =10;
+
+echo tubson($n, $m);
