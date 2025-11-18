@@ -13,3 +13,25 @@ for ($i = 0; $i < count($talabalar); $i++) {
     
 }
 ?>
+
+
+
+
+
+<?php
+class Students{
+    public $boyi;
+    public $yoshi;
+    public $vazni;
+  
+}
+set_atter(165);
+$rano=new Students();
+$rano->boyi=155;
+$rano->yoshi=16;
+$rano->vazni=46;
+
+foreach ($rano as $key => $value) {
+    echo $key . " ---- " . $value . "<br>";
+}
+?>
