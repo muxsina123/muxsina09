@@ -6,7 +6,6 @@ class Cars{
     public $chiroqlari;
 }
 $damas=new Cars();
-
 $damas->rangi="Oq";
 $damas->baloni="4.ta";
 $damas->ogirliki="500.kg";

@@ -1,4 +1,3 @@
-
 <?php
 function tub($son){
     if ($son<2) return false;     
