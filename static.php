@@ -7,6 +7,15 @@ class A{
 }
 // echo A::$name;
 $a=new A();
-echo $a->son(18,200);
+// echo $a->son(18,200);
+class Cons{
+  const a = "salom";
+  public function cons() {
+    echo self::a;
+  }
+}
+
+$b = new Cons();
+$b->cons();
 ?>
 
